@@ -1,6 +1,6 @@
-# GermanCreditData-Mining
+## Overview
 
-
+This is an analysis and classification of german credit data (more information at docs/german-1.pdf). Three classifiers tested, [Support Vector Machines (SVM)](http://scikit-learn.org/stable/modules/svm.html), [Random Forests](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), [Naive Bayes](http://scikit-learn.org/stable/modules/naive_bayes.html), to predict multiple parts of dataset using 10-Fold Cross Validation and measure theis accuracy before actual prediction. The code is written on Python 3.6 and with the help of [scikit-learn](http://scikit-learn.org/stable/) library.
 
 
 | Statistic Measure | Naive Bayes | Random Forest |   SVM   | 
@@ -32,3 +32,9 @@
 |        03        | 0.037889406221500 |   
 |        01        | 0.093827963023500 |   
 
+
+## Usage
+
+For windows based systems `python information_gain.py` and `python predict.py`
+
+For linux bases systems `py information_gain.py` and `py predict.py`
