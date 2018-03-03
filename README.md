@@ -1,6 +1,6 @@
 ## Overview
 
-This is an analysis and classification of german credit data (more information at docs/german-1.pdf). Three classifiers tested, [Support Vector Machines (SVM)](http://scikit-learn.org/stable/modules/svm.html), [Random Forests](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), [Naive Bayes](http://scikit-learn.org/stable/modules/naive_bayes.html), to select the most efficient for our data. The code is written on Python 3.6 and with the help of [scikit-learn](http://scikit-learn.org/stable/) library.
+This is an analysis and classification of german credit data (more information at docs/german-1.pdf). Three classifiers tested, [Support Vector Machines (SVM)](http://scikit-learn.org/stable/modules/svm.html), [Random Forests](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), [Naive Bayes](http://scikit-learn.org/stable/modules/naive_bayes.html), to select the most efficient for our data. The code implemented in Python 3.6 using [scikit-learn](http://scikit-learn.org/stable/) library.
 
 
 ## Data visualization
@@ -33,7 +33,7 @@ For each attribute i used two different plots to represent their data spreading 
 
 ## Classifier accuracy
 
-I used [10-Fold Cross Validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) method for each of three classifiers to measure their accuracy on multiple parts of train dataset. The result are the follows.
+I used [10-Fold Cross Validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) method for each of three classifiers to measure their accuracy on multiple parts of train dataset. The results are the follows.
 
 | Statistic Measure | Naive Bayes | Random Forests |   SVM   | 
 | :---------------: | :---------: | :-----------: | :-----: | 
@@ -48,7 +48,7 @@ In general terms, the [information gain](https://en.wikipedia.org/wiki/Informati
 `IG(T,a) = H(T) - H(T|a)`
 
 
-Information gain for each attribute sorted ascending is represented in the following table
+Information gain for each attribute sorted ascending is represented in the following table.
 
 | Attribute Number |  Information Gain | 
 | :--------------: | :---------------: | 
@@ -74,7 +74,7 @@ Information gain for each attribute sorted ascending is represented in the follo
 |        01        | 0.093827963023500 |   
 
 
-The next step, is to loop through all attributes and removing one each time from dataset based on the above table. I calculated again the accuracy to find the ideal number of attributes that achieve the best accuracy
+The next step, is to loop through all attributes and removing one each time from dataset based on the above table. I calculated again the accuracy to find the ideal number of attributes that achieve the best accuracy.
 
 ![Accuracy](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attributes-Accuracy.png)
 
