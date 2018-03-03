@@ -42,8 +42,13 @@ I used [10-Fold Cross Validation](https://en.wikipedia.org/wiki/Cross-validation
 
 The [Random Forests classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) performs better than others two and i am gonna use it for my final prediction.
 
-
 ## Information gain
+
+In general terms, the [information gain](https://en.wikipedia.org/wiki/Information_gain_in_decision_trees#Formal_definition) is the change in [information entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) H from a prior state to a state that takes some information as given:
+`IG(T,a) = H(T) - H(T|a)`
+
+
+Information gain for each attribute sorted ascending is represented in the following table
 
 | Attribute Number |  Information Gain | 
 | :--------------: | :---------------: | 
@@ -68,6 +73,13 @@ The [Random Forests classifier](http://scikit-learn.org/stable/modules/generated
 |        03        | 0.037889406221500 |   
 |        01        | 0.093827963023500 |   
 
+
+The next step, is to loop through all attributes and removing one each time from dataset based on the above table. I calculated again the accuracy to find the ideal number of attributes that achieve the best accuracy
+
+![Accuracy](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attributes-Accuracy.png)
+
+
+As we can see in the above plot, we achieve the best accuracy after removing the first eight attributes with the lowest [information gain](https://en.wikipedia.org/wiki/Information_gain_in_decision_trees#Formal_definition). We are gonna use the rest twelve remaining attributes to predict our final dataset.
 
 ## Prediction 
 
