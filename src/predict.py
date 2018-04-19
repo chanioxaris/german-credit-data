@@ -6,8 +6,8 @@ import csv
 
 
 # Open csv dataset files and read data
-df_train = pd.read_csv('dataset_train.tsv', sep='\t')
-df_pred = pd.read_csv('dataset_predict.tsv', sep='\t')
+df_train = pd.read_csv('../input/dataset_train.tsv', sep='\t')
+df_pred = pd.read_csv('../input/dataset_predict.tsv', sep='\t')
 
 # If qualitative data encode them using LabelEncoder
 # If numerical and continuous split them to maximum five buckets
