@@ -9,26 +9,21 @@ For each attribute i used two different plots to represent their data spreading 
 - [Histogram](https://en.wikipedia.org/wiki/Histogram): for categorical data
 - [Box plot](https://en.wikipedia.org/wiki/Box_plot): for numerical data
 
-![Attribute1](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute1.png)
-![Attribute2](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute2.png)
-![Attribute3](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute3.png)
-![Attribute4](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute4.png)
-![Attribute5](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute5.png)
-![Attribute6](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute6.png)
-![Attribute7](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute7.png)
-![Attribute8](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute8.png)
-![Attribute9](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute9.png)
-![Attribute10](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute10.png)
-![Attribute11](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute11.png)
-![Attribute12](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute12.png)
-![Attribute13](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute13.png)
-![Attribute14](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute14.png)
-![Attribute15](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute15.png)
-![Attribute16](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute16.png)
-![Attribute17](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute17.png)
-![Attribute18](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute18.png)
-![Attribute19](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute19.png)
-![Attribute20](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute20.png)
+
+![Attribute1](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute1.png)   |  ![Attribute2](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute2.png) 
+:-------------------------:|:-------------------------:
+![Attribute3](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute3.png)   |  ![Attribute4](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute4.png) 
+![Attribute5](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute5.png)   |  ![Attribute6](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute6.png) 
+![Attribute7](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute7.png)   |  ![Attribute8](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute8.png) 
+![Attribute9](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute9.png)   |  ![Attribute10](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute10.png) 
+![Attribute11](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute11.png)   |  ![Attribute12](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute12.png) 
+![Attribute13](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute13.png)   |  ![Attribute14](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute14.png) 
+![Attribute15](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute15.png)   |  ![Attribute16](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute16.png) 
+![Attribute17](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute17.png)   |  ![Attribute18](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute18.png) 
+![Attribute19](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute19.png)   |  ![Attribute20](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute20.png) 
+
+
+
 
 
 ## Classifier accuracy
@@ -83,7 +78,7 @@ As we can see in the above plot, we achieve the best accuracy after removing the
 
 ## Prediction 
 
-Final, we predict our dataset after we trained our [Random Forests classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) with the train dataset and using only the attributes resulting the highest accuracy, as we saw before. Results exported to [Predictions.csv](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/output/Predictions.csv) file.
+Final, we perform our prediction using [Random Forests classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) trained by 'train_dataset' and using only those attributes which resulted the highest prediction accuracy, as we saw at the above plot. Results exported to [Predictions.csv](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/output/Predictions.csv) file.
 
 
 ## Usage
