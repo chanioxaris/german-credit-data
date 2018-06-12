@@ -78,7 +78,7 @@ As we can see in the above plot, we achieve the best accuracy after removing the
 
 ## Prediction 
 
-Final, we perform our prediction using [Random Forests classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) trained by 'train_dataset' and using only those attributes which resulted the highest prediction accuracy, as we saw at the above plot. Results exported to [Predictions.csv](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/output/Predictions.csv) file.
+Final, we perform our prediction using [Random Forests classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) trained by `dataset_train.tsv` and using only those attributes which resulted the highest prediction accuracy, as we saw at the above plot. Results exported to [Predictions.csv](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/output/Predictions.csv) file.
 
 
 ## Usage
