@@ -1,6 +1,6 @@
 ## Overview
 
-This is an analysis and classification of german credit data (more information at docs/german-1.pdf). Three classifiers tested, [Support Vector Machines (SVM)](http://scikit-learn.org/stable/modules/svm.html), [Random Forests](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), [Naive Bayes](http://scikit-learn.org/stable/modules/naive_bayes.html), to select the most efficient for our data. The code implemented in Python 3.6 using [scikit-learn](http://scikit-learn.org/stable/) library.
+This is an analysis and classification of german credit data (more information at [this pdf](https://github.com/chanioxaris/GermanCreditData-Classification/blob/master/docs/german-1.pdf)). Three classifiers tested, [Support Vector Machines (SVM)](http://scikit-learn.org/stable/modules/svm.html), [Random Forests](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), [Naive Bayes](http://scikit-learn.org/stable/modules/naive_bayes.html), to select the most efficient for our data. The code implemented in Python 3.6 using [scikit-learn](http://scikit-learn.org/stable/) library.
 
 
 ## Data visualization
