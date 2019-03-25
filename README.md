@@ -10,17 +10,17 @@ For each attribute i used two different plots to represent their data spreading 
 - [Box plot](https://en.wikipedia.org/wiki/Box_plot): for numerical data
 
 
-![Attribute1](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute1.png)   |  ![Attribute2](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute2.png) 
+![Attribute1](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute1.png)   |  ![Attribute2](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute2.png) 
 :-------------------------:|:-------------------------:
-![Attribute3](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute3.png)   |  ![Attribute4](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute4.png) 
-![Attribute5](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute5.png)   |  ![Attribute6](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute6.png) 
-![Attribute7](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute7.png)   |  ![Attribute8](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute8.png) 
-![Attribute9](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute9.png)   |  ![Attribute10](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute10.png) 
-![Attribute11](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute11.png)   |  ![Attribute12](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute12.png) 
-![Attribute13](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute13.png)   |  ![Attribute14](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute14.png) 
-![Attribute15](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute15.png)   |  ![Attribute16](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute16.png) 
-![Attribute17](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute17.png)   |  ![Attribute18](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute18.png) 
-![Attribute19](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute19.png)   |  ![Attribute20](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attribute20.png) 
+![Attribute3](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute3.png)   |  ![Attribute4](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute4.png) 
+![Attribute5](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute5.png)   |  ![Attribute6](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute6.png) 
+![Attribute7](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute7.png)   |  ![Attribute8](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute8.png) 
+![Attribute9](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute9.png)   |  ![Attribute10](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute10.png) 
+![Attribute11](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute11.png)   |  ![Attribute12](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute12.png) 
+![Attribute13](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute13.png)   |  ![Attribute14](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute14.png) 
+![Attribute15](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute15.png)   |  ![Attribute16](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute16.png) 
+![Attribute17](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute17.png)   |  ![Attribute18](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute18.png) 
+![Attribute19](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute19.png)   |  ![Attribute20](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attribute20.png) 
 
 
 
@@ -71,7 +71,7 @@ Information gain for each attribute sorted ascending is represented in the follo
 
 The next step, is to loop through all attributes and removing one each time from dataset based on the above table. I calculated again the accuracy to find the ideal number of attributes that achieve the best accuracy.
 
-![Accuracy](https://github.com/chanioxaris/GermanCreditData-Mining/blob/master/img/Attributes-Accuracy.png)
+![Accuracy](https://github.com/chanioxaris/german-credit-data/blob/master/img/Attributes-Accuracy.png)
 
 
 As we can see in the above plot, we achieve the best accuracy after removing the first eight attributes with the lowest [information gain](https://en.wikipedia.org/wiki/Information_gain_in_decision_trees#Formal_definition). We are gonna use the rest twelve remaining attributes to predict our final dataset.
